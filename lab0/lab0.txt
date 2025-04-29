@@ -1,0 +1,6 @@
+driver: jcoumarb
+a. pwd - this command prints the working directory aka. tells the user what folder they are actively "in"
+b. (ls - a) - this command lists the files stored in the directory that the user is currently inspecting including the hidden files that would not be shown using the standard list function
+c. cd - this command changes the current directory that the user is current working "in"
+d. rm - this command removes files from memory
+e. (..) - this represents the directory directly before the one that the user is currently using in the pathname. Because of this, it is fully relative to where in the hierarchy the user is

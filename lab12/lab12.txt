@@ -1,0 +1,30 @@
+driver: jcoumarb
+navigator: akimrey
+
+1 thread:
+	.011637s
+	1000000
+2 threads:
+	.016385
+	562079		
+8 threads:
+	.079149s
+	182031	
+16 threads:
+	.083975
+	216899	
+
+after fix//
+1 thread:
+	.086109s
+	1000000
+2 threads:
+	.636461s
+	1000000
+8 threads:
+	3.092332s
+	1000000
+16 threads:
+	3.40673s
+	1000000
+

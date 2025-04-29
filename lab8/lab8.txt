@@ -1,0 +1,19 @@
+driver: jcoumarb
+navigator: akimrey
+
+prediction:
+	including 'y[3] = 'w'' may lead to a segmentation fault???
+
+result:
+	it saved the information that was stored but then it caused an issue with the code 
+
+prediction 2:
+	including 'y[3000] = 'w'' may lead to a segmentation fault
+
+result 2:
+	oddly the code ran with no issues
+
+15.
+	a) I think that the debugger is helpful. my experience with it was pretty streamlined because of yoru instructions. I can see myself using it as a last resort of some print statements are not good enough for me to decipher what is happening in the background
+
+	b) Input validation and bound checking 

@@ -1,0 +1,10 @@
+driver: akimrey
+navigator: jcoumarb
+
+What is happening between points  A - B is a necessary location change because the original 'array' reached max capacity.
+A new mem location called 'Bigger' is made, copies the data of 'array', swaps handles, and then bigger is freed.
+fucntionally allowing 'array' to be larger and hold the same data in a new larger location under the same name
+
+when resize_attempt.c is compiled and ran without a command line argument, it gives a segmentation fault error.
+This is the result because without parameter, the entire argv array is null except for argv[0] holding the file name.
+this results in the atoi(argv[1]) blowing up because it is called on null.

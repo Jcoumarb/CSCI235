@@ -1,0 +1,9 @@
+driver: akimrey
+navigator: jcoumarb
+
+5. to read a file line by line, you would use fgets()
+9. I assume that this was for lab6a when we had not completed the assignment yet
+	completed:
+	print_file.c
+	print_file2.c
+	my_grep.c -> this reads a string param and a file name as command line arguments and then grabs each line of the file and looks through each line for the string param. If 'line' contains the word, then it prints that line with the '$' at the end

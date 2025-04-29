@@ -1,0 +1,55 @@
+driver: jcoumarb
+navigator: akimrey
+
+Frist test: 500 500 500 500
+Result:
+Testing matrix_multiply_ijk:
+Matrix multiplication took 1.996803 seconds.
+
+Testing matrix_multiply_kij:
+Matrix multiplication took 1.417646 seconds.
+
+Testing matrix_multiply_jki:
+Matrix multiplication took 1.800756 seconds.
+
+
+Second test: 50 50 50 50
+Result:
+Testing matrix_multiply_ijk:
+Matrix multiplication took 0.004409 seconds.
+
+Testing matrix_multiply_kij:
+Matrix multiplication took 0.003912 seconds.
+
+Testing matrix_multiply_jki:
+Matrix multiplication took 0.003961 seconds.
+
+
+Third test: 1000 1000 1000 1000
+Result:
+Testing matrix_multiply_ijk:
+Matrix multiplication took 19.257496 seconds.
+
+Testing matrix_multiply_kij:
+Matrix multiplication took 13.176515 seconds.
+
+Testing matrix_multiply_jki:
+Matrix multiplication took 31.360184 seconds.
+
+
+Fourth test: 250 250 250 250
+Result:
+Testing matrix_multiply_ijk:
+Matrix multiplication took 0.187425 seconds.
+
+Testing matrix_multiply_kij:
+Matrix multiplication took 0.136566 seconds.
+
+Testing matrix_multiply_jki:
+Matrix multiplication took 0.158714 seconds.
+
+b. the locality increases as we change the alorithm to access the data in a more optimal order. We can see this as each algorithm reports a slower or faster time depending on the matrix size	
+
+c. Yes!!!!
+
+d. Yes. They have likely already optimized the locality and have to seek other means of reaching higher efficiency
